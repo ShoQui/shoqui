@@ -1,3 +1,4 @@
+import Header from "components/home/Header"
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
@@ -6,13 +7,10 @@ import Layout from "hocs/layouts/Layout"
 
 function Home(){
     return(
-        <Layout>
-            <Navbar/>
-            <div className="pt-14">
-                Home                
-            </div>
-
-            <Footer/>
+        <Layout>                        
+                <Header/>  
+                <Navbar/>           
+                <Footer/>
             
         </Layout>
     )
