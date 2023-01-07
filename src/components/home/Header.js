@@ -14,15 +14,15 @@ function Header(){
           </div>
 
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div className="mx-auto max-w-3xl pt-20 sm:pt-40 sm:pb-40">
             <div>
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div className="hidden  sm:flex sm:justify-center">
                 <div className="relative">
                 <img src={logotipo_lg} width={444} className='' />
                 </div>
               </div>
               <div>
-                <h3 className="text-4xl font-bold text-slate-200 tracking-tight sm:text-center sm:text-4xl pb-2 ">
+                <h3 className="text-4xl font-bold text-slate-200 tracking-wide sm:text-center sm:text-4xl pt-4 pb-2 ">
                   Nosotros
                 </h3>
                     <h2 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl py-2 ">                        
