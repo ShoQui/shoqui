@@ -19,28 +19,28 @@ const incentives = [
   
   export default function Incentives() {
     return (
-      <div className="bg-pizarra-900">
-        <div className="mx-auto max-w-7xl py-12 sm:px-2 sm:py-8 lg:px-4">
-          <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
-            <div className="max-w-3xl">
-              <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-                We built our business on customer service
+      <div className="bg-pizarra ">
+        <div className="mx-auto max-w-7xl  py-12 sm:px-2 sm:py-8 lg:px-4 ">
+          <div className="mx-auto max-w-2xl px-4 lg:max-w-none  ">
+            <div className="max-w-1xl ">
+              <h2 className="text-4xl text-center font-bold tracking-tight text-purple-200-accent">
+                Nuestro Negocio es Brindarte el Mejor Servicio
               </h2>
-              <p className="mt-4 text-gray-500">
+              <p className="mt-4 text-zinc-200">
                 At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring
                 about that. Our new strategy is to write a bunch of things that look really good in the headlines, then
                 clarify in the small print but hope people don't actually read it.
               </p>
             </div>
-            <div className="mt-16 mb-8 grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
+            <div className="mt-16 mb-8 grid grid-cols-1 gap-y-10 gap-x-16 lg:grid-cols-3">
               {incentives.map((incentive) => (
-                <div key={incentive.name} className="sm:flex lg:block">
-                  <div className="sm:flex-shrink-0">
-                    <img className="h-16 w-16" src={incentive.imageSrc} alt="" />
+                <div key={incentive.name} className="sm:flex lg:flex">
+                  <div className="sm:flex-shrink-0 py-2">
+                    <img className="h-16 w-16 " src={incentive.imageSrc} alt="" />
                   </div>
-                  <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
+                  <div className="mt-2 sm:mt-0 sm:ml-2 lg:mt-0 lg:ml-4">
                     <h3 className="text-sm font-medium text-gray-900">{incentive.name}</h3>
-                    <p className="mt-2 text-sm text-gray-500">{incentive.description}</p>
+                    <p className="mt-1 text-sm text-justify text-zinc-400">{incentive.description}</p>
                   </div>
                 </div>
               ))}

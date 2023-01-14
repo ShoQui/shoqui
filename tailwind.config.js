@@ -11,7 +11,7 @@ module.exports = {
         "violets-500":'#b833ff',
         "cian":'#5aa5e6',
         "purple-200-accent":'#d500f9',
-        "pizarra-900":'0c0c0c',
+        "pizarra":'#0a090c',
       }
     },
   },
