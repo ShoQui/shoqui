@@ -19,9 +19,9 @@ const incentives = [
   
   export default function Incentives() {
     return (
-      <div className="bg-pizarra ">
-        <div className="mx-auto max-w-7xl  py-12 sm:px-2 sm:py-8 lg:px-4 ">
-          <div className="mx-auto max-w-2xl px-4 lg:max-w-none  ">
+      <div className="bg-black border-b-2 border-zinc-800 mx-10 ">
+        <div className="max-w-7xl  py-12 sm:px-2 sm:py-8  ">
+          <div className="max-w-2xl  lg:max-w-none  ">
             <div className="max-w-1xl ">
               <h2 className="text-4xl text-center font-bold tracking-tight text-purple-200-accent">
                 Nuestro Negocio es Brindarte el Mejor Servicio

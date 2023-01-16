@@ -19,7 +19,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="bg-white">
+    <div className="bg-pizarra">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:py-24 lg:px-8">
         <div>
           <h2 className="text-lg font-semibold text-indigo-600">Everything you need</h2>

@@ -33,12 +33,14 @@ function Navbar(){
         <nav id='navbar' className='w-full py-2 top-0 z-40 fixed'>
             <div className='px-4 sm:px-6'>
                 <div className='-ml-4 -mt-4 flex flex-wrap items-center justify-between sm:flex-nowrap md:px-2 px-2'>
-                    <Link to='/' className='ml-6 mt-4 '>
-                        
-                        <img src={logo_lg} width={222} />
+                    
+                    <Link to='/' className='ml-6 mt-4 '>      
+                    <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" 
+                    src={logo_lg} width={222} />                
                     </Link>
+
                     <div className='ml-4 mt-4 flex-shrink-0'>
-                        <NavLink to='/inicio' className='text-xs inline-flex font-normal leading-6 text-zinc-200 border-b border-transparent hover:border-zinc-200 hover:text-purple-200-accent  mx-3'>Inicio</NavLink>
+                        <NavLink to='/' className='text-xs inline-flex font-normal leading-6 text-zinc-200 border-b border-transparent hover:border-zinc-200 hover:text-purple-200-accent  mx-3'>Inicio</NavLink>
                         <NavLink to='/servicios' className='text-xs inline-flex font-normal leading-6 text-zinc-200 border-b border-transparent hover:border-zinc-200 hover:text-purple-200-accent  mx-3'>Servicios</NavLink>
                         <NavLink to='/nosotros' className='text-xs inline-flex font-normal leading-6 text-zinc-200 border-b border-transparent hover:border-zinc-200 hover:text-purple-200-accent  mx-3'>Nosotros</NavLink>
                         <NavLink to='/planes' className='text-xs inline-flex font-normal leading-6 text-zinc-200 border-b border-transparent hover:border-zinc-200 hover:text-purple-200-accent  mx-3'>Planes</NavLink>
