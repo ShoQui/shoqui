@@ -7,7 +7,7 @@ import logotipo_lg from 'assets/img/logotipo.png'
 function Header(){
     return(
         <main>
-          <div className="w-full  bg-black bg-opacity-80 top-0 content">
+          <div className="w-full bg-black bg-opacity-80 top-0 content">
             <div className="-z-10 w-full  bg-black top-0 content">
               <img src={imageBg} />
             </div>
