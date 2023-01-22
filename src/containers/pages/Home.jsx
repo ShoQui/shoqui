@@ -15,17 +15,18 @@ function Home(){
         window.scrollTo(0,0)
     },[])
     return(
-        <Layout>                        
-                <Header/>  
-                <Navbar/>
-                    <div>
-                        <Incentives/>
+        <Layout>
+                <Navbar/>                        
+                               
+                    <div data-scroll-section className="pt-28">
+                        <Header/>   
+                        <Incentives/>                     
                         <Portafolio/>
                         <Features/>
                         <CTA/>
                         <LogoCloud/>
                         <BlogList/>       
-                    </div>  
+                    </div> 
                 <Footer/>                
             
         </Layout>
